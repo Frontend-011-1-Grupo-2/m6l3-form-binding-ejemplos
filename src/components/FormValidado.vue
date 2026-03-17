@@ -4,16 +4,16 @@
       <!-- El padre inyectará html -->
     </slot>
     <div>
-      <label for="email">Email</label>
-      <input type="email" v-model="usuario.email">
+      <label class="form-label" for="email">Email</label>
+      <input class="form-control" type="email" v-model="usuario.email">
       <small class="input-error" v-if="usuario.email.length && !esMailValido">Error: el email es inválido</small>
     </div>
     <div>
-      <label for="password">Password</label>
-      <input type="password" v-model="usuario.password">
+      <label class="form-label" for="password">Password</label>
+      <input class="form-control" type="password" v-model="usuario.password">
       <small class="input-error" v-if="usuario.password.length && !esPasswordValida">Contraseña inválida</small>
     </div>
-    <button type="submit">Login</button>
+    <button class="btn btn-primary" type="submit">Login</button>
   </form>
 </template>
 

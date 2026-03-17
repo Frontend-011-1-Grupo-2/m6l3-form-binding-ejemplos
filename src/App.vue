@@ -1,8 +1,8 @@
 <template>
-  <main>
+  <main class="container">
     <h1>Form binding con <code>v-model</code></h1>
     <FormEjemplo />
-    <hr>
+    <hr class="my-5">
     <FormValidado>
       <h2>Form Validado</h2>
     </FormValidado>
