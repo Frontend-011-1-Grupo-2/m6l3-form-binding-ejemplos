@@ -38,4 +38,10 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+main {
+  h1 {
+    color: blue
+  }
+}
+</style>
